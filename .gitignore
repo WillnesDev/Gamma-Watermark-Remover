@@ -1,0 +1,27 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environment Variables / Secrets
+.env
+.flaskenv
+
+# Project Specific: Ignore uploaded and processed files
+# We ignore everything in these folders but keep the .gitkeep files
+uploads/*
+!uploads/.gitkeep
+
+outputs/*
+!outputs/.gitkeep
+
+# OS specific files
+.DS_Store
+Thumbs.db
