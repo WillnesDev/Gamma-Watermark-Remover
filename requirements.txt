@@ -6,3 +6,4 @@ PyMuPDF
 Werkzeug
 aiofiles
 python-pptx
+requests
